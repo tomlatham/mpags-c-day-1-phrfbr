@@ -20,7 +20,8 @@ for (int j =0; j<i ; j++ )
 		std::cout << help << std::endl;
 		return 0;
 	}
-
+	
+	//give version details
 	else if (cmdLineArgs[j] == "--version")
 	{
 		std::string version {"Version 1.0"};
@@ -28,9 +29,11 @@ for (int j =0; j<i ; j++ )
 		return 0;
 	}	
 
+	//give input file
 	else if (cmdLineArgs[j] == "-i")
 	{	
 
+		//error if no input file
 		if (j+1 == i)
 		{	
 			std::cout << "ERROR: no input file defined" << std::endl;
@@ -43,9 +46,11 @@ for (int j =0; j<i ; j++ )
 
 	}
 
+	//output file
 	else if (cmdLineArgs[j] == "-o")
 	{
 
+		//error if not output file
 		if (j+1 == i)
 		{	
 			std::cout << "ERROR: no output file defined" << std::endl;
