@@ -26,3 +26,4 @@ Write Ciphertext to Screen or File
 
 ##Authors
 Sammy Valder
+
