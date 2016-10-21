@@ -20,6 +20,8 @@ Vigenere Cipher
 
 Write Ciphertext to Screen or File
 
+##Documentation
+
 ##How to install
 
 ##Authors
