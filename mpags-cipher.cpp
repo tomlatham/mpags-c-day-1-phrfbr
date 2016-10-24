@@ -69,6 +69,8 @@ for (int j =0; j<i ; j++ )
 }
 std::string msg {""};
 
+std::cout  << "Type cipher text, press Enter then Ctrl+D when finished" << std::endl; 
+
 // Take each letter from user input and in each case:
 
 	//loop until the user presses Enter then Ctrl+D
