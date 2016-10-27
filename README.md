@@ -20,9 +20,16 @@ Vigenere Cipher
 
 Write Ciphertext to Screen or File
 
+TEL: Great that you've noted these requirements here!
+
 ##Documentation
 
 ##How to install
+
+TEL: Would be good to include the build instructions here.
+     It does all build and function correctly - well done.
+
+TEL: I'm noting this here in case I forget to mention it in the email to you: we would suggest not to commit the compiled binary into the repository, you should only have the source files under version control.  Also I noticed you had a .nfs.... file - don't commit those either (we can discuss what they are tomorrow if you like).
 
 ##Authors
 Sammy Valder
